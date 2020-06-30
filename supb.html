@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <meta charset="utf-8">
+        <title>Podatkovne baze</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <header class="top-bar">
+           <div class="logo">
+                <img src="file:///C:/Users/Ana/Desktop/AAA.svg"/>
+           </div> 
+            <div class="main-menu">
+                <a href="index.html">DOMOV</a>
+                <a href="PB.html">PODATKOVNA BAZA</a>
+                <a href="arhitektura.html">ARHITEKTURA PB</a>
+                <a href="supb.html">SUPB</a>
+                <a href="sql.html">SQL</a>
+                <a href="uporaba.html">UPORABA PB</a>
+                <a href="o-strani.html">O STRANI</a>
+            </div>
+        </header>
+        <section class="page">
+            <div class="text-supb">
+                <h2>SUPB-Sistem za upravljanje podatkovnih baz</h2>
+                <p>Sistem za upravljanje podatkovnih baz(Database Management System) je zbirka programov namenjena upravljanju baze. </p>
+                <h4>ARHITEKTURA SUPB-JA:</h4>
+                <h3>UPORABNIŠKI VMESNIK</h3>
+                <p>Uporabniški vmesnik je namenjen upravitelju PB in je lahko tekstovni ali grafični.</p>
+                <h3>PROCESOR POIZVEDB</h3>
+                <p>Podmoduli:</p>
+                <ul>
+                    <li>DML prevajalnik</li>
+                    <li>Vgrajen DML predprevajalnik-DML stavke prevede v običajne klice procedur gostiteljskega jezika.</li>
+                    <li>DDL interpreter-pretvori DDL stavke v množico tabel z metapodatki.</li>
+                    <li>Modul za ovrednotenje poizvedb-prevede stavke poizvedovalnega jezika v instrukcije, ki jih razume upravitelj shranjevanja.</li>
+                </ul>
+                <h3>UPRAVITELJ TRANSAKCIJ</h3>
+                <p>Zaklepa, beleži in izvaja transakcije.</p>
+                <h3>UPRAVITELJ SHRANJEVANJA</h3>
+                <p>Podmoduli:</p>
+                <ul>
+                    <li>Upravitelj avtorizacij in celovitosti-nadzoruje dostope in celovitost podatkov.</li>
+                    <li>Upravitelj datotek-dostopa do datotek na disku.</li>
+                    <li>Prednost SUPB-ja je podatkovna neodvisnost, kar pomeni, da so programi neodvisni od predstavitve podatkov in načina shranjevanja podatkov. </li>
+                </ul>
+                
+                <h4>NALOGE SUPB-ja:</h4>
+                <ul>
+                    <li>Omogoča kreiranje in vzdrževanje PB. </li>
+                    <li>Omogoča učinkovit dostop do podatkov večjemu številu uporabnikov, pri čemer sočasna raba ne vpliva na celovitost baze. </li>
+                    <li>Skrbi za zaščito podatkov pred nesrečami in neavtoriziranimi dostopi. </li>
+                    <li>Zagotavlja skrajšan čas razvoja programov, saj podpira številne mehanizme za dostop do podatkov.</li>
+                    <li>Skrbi za veljavnost stanja PB.</li>
+                    <li>Preprečuje nenadzorovano redundanco podatkov. Posledice redundance podatkov so podvajanje potrebe po ažuriranju podatkov, velika poraba trajnega pomnilnika, nekonsistentnost  podatkov v primeru, ko uporabnik pozabi posodobiti eno od kopij podatka itd.</li>
+                    <li>Zagotavlja integriteto podatkov. Pred vnosom ali spreminjanjem podatkov, se  SUPB prepriča, da se podatki nahajajo v domeni vrednosti za dani tip npr. pri vnosu v tabelo s poljem LETNICA ROJSTVA je vnos 2050 primer neveljavna domena.</li>
+                    <li>Spremlja delovanje PB - izvaja nadzor preformans.</li>
+                </ul>
+            </div>
+            <div class="source-b">
+                <p>Viri:</p>
+                <p>E gradiva, Načrtovanje in postavitev podatkovnih baz, SUPB (b.d). Pridobljeno s http://www.egradiva.net/moduli/podatkovne_baze/03_definicija/07_datoteka.html dne 26.6.2020.</p>
+                <p>Wikipedija: Sistem za upravljanje s podatkovnimi zbirkami(b.d.). Pridobljeno s https://sl.wikipedia.org/wiki/Sistem_za_upravljanje_s_podatkovnimi_zbirkami dne 26.6.2020.</p>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="information">
+                <p>© anabiteznik.github.io | Designed by Ana Bitežnik | MA_RA-1</p>
+            </div>
+        </footer>

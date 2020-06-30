@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.top-bar{
+    background-color: #70EDFF;
+    height: 125px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-menu{
+    display: flex;
+}
+
+.main-menu a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 0.5s;
+}
+
+.main-menu a:hover{
+    background-color: #88A19E;
+    border-color: #88A19E ;
+    color: white;
+}
+.main-menu a:active{
+    top: 4px;
+    border-color: black;
+}
+
+.logo img{
+    width: 68%;
+    height: 68%;
+    border:3px solid #70EDFF;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+
+.homepage{
+    height: 1400px;
+    position: relative;
+}
+
+.homepage h1{
+    font-size: 45px;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+.homepage img{
+    justify-content: flex-end;
+}
+
+.row1 {
+    display: block;
+    border:2px inset rgb(23, 23, 175);
+    border-radius: 10px;
+    background-color: rgb(23, 23, 175);
+    color: #e0fdff;
+    font-size: 20px;
+    height: 500px;
+    width: 500px;
+    padding: 15px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.row1 p{
+    padding: 15px;
+}
+
+.row1 img{
+    position: absolute;
+    top:150px;
+    right: 40px;
+    height: 600px;
+    width: 600px;
+
+}
+
+
+.row2{
+    position: absolute;
+    bottom:100px;
+    right:80px;
+    display: block;
+    border:2px outset rgb(106, 106, 255);
+    border-radius: 10px;
+    background-color: rgb(106, 106, 255);
+    color: #e0fdff;
+    font-size: 21px;
+    height:450px;
+    width:500px;
+    padding:15px;
+
+}
+
+.row2 p{
+    padding: 15px;
+}
+
+.row2 img{
+    position: absolute;
+    right: 550px;
+    bottom: 0px;
+    height:550px;
+    width: 700px;
+}
+
+
+.footer-homepage{
+    height: 130px;
+    position: relative;
+}
+
+.information{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    left:0;
+    height: 50px;
+    background-color: gray;
+}
+
+.information p{
+    position: absolute;
+    font-size: 20px;
+    bottom: 10px;
+    left:30%;
+}
+
+.page{
+    position: relative;
+    height: 1800px;
+}
+
+.text-arhitektura{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 130px;
+    right: 130px;
+    background-color: rgb(23, 23, 175);
+    color: #e0fdff;
+    z-index: -1;
+}
+
+.text-arhitektura h1{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.text-arhitektura h2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+.text-arhitektura p{
+    display: block;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.text-arhitektura ul{
+    margin-left: 130px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.text-arhitektura ul p{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+ .page img{
+     position: absolute;
+     bottom: 200px;
+     left: 250px;
+     border-radius: 5px;
+ }
+.text-PB{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 130px;
+    right: 130px;
+    background-color: #c8eff1;
+    color: black;
+}
+
+.row-left{
+    background-color: #70EDFF;
+    position: absolute;
+    height: 450px;
+    left:130px;
+    top:750px;
+    right:50%
+    
+}
+.row-left h2{
+    position: absolute;
+    bottom: 360px;
+    left: 50px;
+}
+
+.row-left ul{
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    font-size: 20px;
+    padding: 15px;
+}
+.row-left li{
+    padding: 10px;
+}
+
+
+.row-right{
+    background-color: rgb(155, 155, 233);
+    position: absolute;
+    top: 750px;
+    right: 130px;
+    left:50%;
+    height: 450px;
+}
+
+.row-right h2{
+    position: absolute;
+    bottom: 360px;
+    left: 50px;
+}
+
+.row-right ul{
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    display: block;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.row-right li{
+    padding: 10px;
+}
+
+
+.text-PB h2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.definicije{
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 40px;
+    
+    
+}
+.definicije p{
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+
+.text-PB p{
+    display: block;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+.text-sistem{
+    position: absolute;
+    bottom: 140px;
+    left: 180px;
+    right: 50px;
+}
+
+.text-sistem p{
+    margin-right: 130px;
+    margin-left: 20px;
+    padding: 8px;
+    display: block;
+    font-size: 18px;
+}
+
+.text-sistem h1{
+    text-decoration: underline;
+    padding: 10px;
+    margin-left: 20px;
+}
+.text-sistem li{
+    padding: 10px;
+    margin-left: 70px;
+    font-size: 18px;
+}
+.text-supb{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 130px;
+    right: 130px;
+    background-color: #c8eff1;
+    color: black;
+}
+
+.text-supb h2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.text-supb h3{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.text-supb h4{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 80px;
+    text-decoration: underline;
+}
+.text-supb p{
+    display: block;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.text-supb ul{
+    margin-left: 130px;
+    margin-right: 130px ;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.text-supb li{
+    padding: 8px;
+}
+.text-sql{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 130px;
+    right: 130px;
+    background-color: rgb(23, 23, 175);
+    color: #e0fdff;¸
+    z-index:-1;
+}
+
+.text-sql h2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.text-sql p{
+    display: block;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.text-sql ul{
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 25px;
+    padding-top: 30px;
+}
+ .text-sql ul p{
+     margin-left: 10px;
+     padding: 5px;
+     padding-bottom: 40px;
+ }
+
+.video iframe{
+    position: absolute;
+    left: 260px;
+    bottom: 350px;
+    
+}
+
+.video p{
+    position: absolute;
+    left: 200px;
+    top: 800px;
+    font-size: 20px;
+    color: #e0fdff;¸
+}
+
+.text-uporaba{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 130px;
+    right: 130px;
+    background-color: rgb(106, 106, 255);
+    color: #e0fdff;
+}
+
+.text-uporaba h2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.text-uporaba h3{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.text-uporaba p{
+    display: block;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+.text-uporaba ul{
+    margin-left: 130px;
+    margin-right: 130px ;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.text-uporaba li{
+    padding: 8px;
+}
+
+.footer{
+    position: relative;
+    height: 50px;
+}
+
+.source-w{
+    position: absolute;
+    left: 230px;
+    right: 150px;
+    bottom: 0px;
+    color: #e0fdff;
+    font-size: 15px;
+}
+
+.source-w p{
+    padding: 5px;
+}
+.source-b{
+    position: absolute;
+    left: 230px;
+    right:130px;
+    bottom: 0px;
+    color: black;
+    font-size: 15px;
+}
+.source-b p{
+    padding: 5px;
+}
+
+.last-page{
+    position: relative;
+    height: 500px;
+}
+
+.text-last{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #e0fdff;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.text-last h1{
+    padding-bottom: 15px;
+}
+

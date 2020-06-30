@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <meta charset="utf-8">
+        <title>Podatkovne baze</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <header class="top-bar">
+           <div class="logo">
+                <img src="file:///C:/Users/Ana/Desktop/AAA.svg"/>
+           </div> 
+            <div class="main-menu">
+                <a href="index.html">DOMOV</a>
+                <a href="PB.html">PODATKOVNA BAZA</a>
+                <a href="arhitektura.html">ARHITEKTURA PB</a>
+                <a href="supb.html">SUPB</a>
+                <a href="sql.html">SQL</a>
+                <a href="uporaba.html">UPORABA PB</a>
+                <a href="o-strani.html">O STRANI</a>
+            </div>
+        </header>
+        <section class="page">
+            <div class="text-arhitektura">
+                <h1>ARHITEKTURA PB</h1>
+                <p>Arhitektura podatkovne baze je tri nivojska:</p>
+                <h2>ZUNANJI NIVO</h1>
+                <p>Zunanji nivo predstavlja pogled uporabnikov na podatke. Uporabnik vidi le nekatere podatke, pogledi pa so različni za vsakega uporabnika. Za prikaz istih podatkov obstajajo različne zunanje sheme, ki so (teoretično) neomejene.</p>
+                <h2>KONCEPTUALNI NIVO</h2>
+                <p>Konceptualni nivo je predstavljen s konceptualno shemo, ki vsebuje logične podatke o podatkovni bazi-vsebina in struktura podatkovne baze, informacije povezane z varnostjo,… Vsi podatki prikazani na zunanjem nivoju morejo biti izpeljani iz podatkov na konceptualnem nivoju.</p>
+                <h2>NOTRANJI NIVO</h2>
+                <p>Notranji nivo opredeljuje kako so podatki shranjeni v podatkovni bazi (dodelitev spomina za podatke in indekse, opis zapisov, stiskanje podatkov,….). Pod notranjim nivojem je še fizični nivo, s katerim upravlja operacijski sistem na osnovi navodil, ki jih dobi od SUPB-ja. </p>
+                <br>
+                <br>
+                <br>
+                <p>Tri nivojska struktura zagotavlja podatkovno neodvisnost, torej da spremembe na nižjem nivoju ne vplivajo na delovanje tistih na višjem. Delimo jo na:</p>
+                <ul>
+                    <li>Fizična podatkovna neodvisnost</li>
+                    <p>Zagotavlja neodvisnost konceptualne sheme od sprememb  v notranji shemi.</p>
+                    <br>
+                    <li>Logična podatkovna neodvisnost</li>
+                    <p>Zagotavlja neodvisnost zunanjih shem od sprememb v konceptualni shemi.</p>
+                </ul>
+            </div>
+            <div class="source-w">
+                <p>Viri:</p>
+                <br>
+                <p>E gradiva za računalništvo, Arhitektura PB in podatkovna neodvisnost (2007). Pridobljeno s http://colos.fri.uni-lj.si/eri/RACUNALNISTVO/PODATKOVNE_BAZE/arhitektura_pb_in_podatkovna_neodvisnost.html dne 26.06.2020.</p>
+                <br>
+                <p>Wikipedija: Arhitektura ANSI-SPARC(b.d). Pridobljeno s https://sl.wikipedia.org/wiki/Arhitektura_ANSI-SPARC dne 26.06.2020.</p>
+            
+            </div>
+            <img src="slika.arhitektura.png"/>
+        </section>
+        <footer class="footer">
+            <div class="information">
+                <p>© anabiteznik.github.io | Designed by Ana Bitežnik | MA_RA-1</p>
+            </div>
+        </footer>
